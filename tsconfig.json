@@ -11,7 +11,7 @@
     },
     "include": [
         "src"
-    ],
+, "src/client/test/ProductItem.test.tsx", "src/test/unit/utils.tsx"    ],
     "ts-node": {
         "compilerOptions": {
             "module": "CommonJS"

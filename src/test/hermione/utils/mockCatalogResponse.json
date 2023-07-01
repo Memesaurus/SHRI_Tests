@@ -1,0 +1,137 @@
+[
+    {
+        "id": 0,
+        "name": "Tasty Chips",
+        "price": 519
+    },
+    {
+        "id": 1,
+        "name": "Gorgeous Hat",
+        "price": 239
+    },
+    {
+        "id": 2,
+        "name": "Refined Bacon",
+        "price": 557
+    },
+    {
+        "id": 3,
+        "name": "Unbranded Pizza",
+        "price": 710
+    },
+    {
+        "id": 4,
+        "name": "Rustic Bacon",
+        "price": 12
+    },
+    {
+        "id": 5,
+        "name": "Incredible Table",
+        "price": 413
+    },
+    {
+        "id": 6,
+        "name": "Practical Mouse",
+        "price": 931
+    },
+    {
+        "id": 7,
+        "name": "Handmade Fish",
+        "price": 820
+    },
+    {
+        "id": 8,
+        "name": "Generic Towels",
+        "price": 266
+    },
+    {
+        "id": 9,
+        "name": "Rustic Hat",
+        "price": 146
+    },
+    {
+        "id": 10,
+        "name": "Gorgeous Gloves",
+        "price": 232
+    },
+    {
+        "id": 11,
+        "name": "Rustic Bacon",
+        "price": 108
+    },
+    {
+        "id": 12,
+        "name": "Handcrafted Shoes",
+        "price": 43
+    },
+    {
+        "id": 13,
+        "name": "Fantastic Bacon",
+        "price": 423
+    },
+    {
+        "id": 14,
+        "name": "Fantastic Pants",
+        "price": 68
+    },
+    {
+        "id": 15,
+        "name": "Small Computer",
+        "price": 492
+    },
+    {
+        "id": 16,
+        "name": "Handcrafted Keyboard",
+        "price": 237
+    },
+    {
+        "id": 17,
+        "name": "Incredible Tuna",
+        "price": 171
+    },
+    {
+        "id": 18,
+        "name": "Ergonomic Sausages",
+        "price": 943
+    },
+    {
+        "id": 19,
+        "name": "Ergonomic Bacon",
+        "price": 128
+    },
+    {
+        "id": 20,
+        "name": "Rustic Ball",
+        "price": 621
+    },
+    {
+        "id": 21,
+        "name": "Sleek Mouse",
+        "price": 376
+    },
+    {
+        "id": 22,
+        "name": "Practical Shoes",
+        "price": 141
+    },
+    {
+        "id": 23,
+        "name": "Ergonomic Towels",
+        "price": 502
+    },
+    {
+        "id": 24,
+        "name": "Fantastic Sausages",
+        "price": 929
+    },
+    {
+        "id": 25,
+        "name": "Small Hat",
+        "price": 281
+    },
+    {
+        "id": 26,
+        "name": "Tasty Shirt",
+        "price": 838
+    }
+]

@@ -18,7 +18,7 @@ export const Catalog: React.FC = () => {
 
     const items: React.ReactNode = products ?
         products.map(p => (
-            <div key={p.id} data-testid={p.id} className="col-12 col-sm-6 col-md-4 col-lg-3">
+            <div key={p.id} data-testid="catalogItem" className="col-12 col-sm-6 col-md-4 col-lg-3">
                 <ProductItem product={p} />
             </div>
         )) :

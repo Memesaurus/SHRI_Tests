@@ -50,7 +50,7 @@ export const Application: FC = () => {
                 </div>
             </div>
         </nav>
-        <div className="container pt-4">
+        <div id='content' className="container pt-4">
             <Switch>
                 <Route path="/" exact component={Home} />
                 <Route path="/catalog" exact component={Catalog} />

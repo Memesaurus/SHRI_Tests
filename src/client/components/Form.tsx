@@ -56,6 +56,7 @@ export const Form: React.FC<FormProps> = ({ onSubmit }) => {
                 <label htmlFor="f-name" className="form-label">Name</label>
                 <input
                     id="f-name"
+                    data-testid="f-name"
                     type="text"
                     disabled={sent}
                     className={bem("Field", { type: 'name' }, [getControlClass(nameIsValid, submitted)])}
@@ -67,6 +68,7 @@ export const Form: React.FC<FormProps> = ({ onSubmit }) => {
                 <label htmlFor="f-phone" className="form-label">Phone</label>
                 <input
                     id="f-phone"
+                    data-testid="f-phone"
                     type="text"
                     disabled={sent}
                     className={bem("Field", { type: 'phone' }, [getControlClass(phoneIsValid, submitted)] )}
@@ -77,6 +79,7 @@ export const Form: React.FC<FormProps> = ({ onSubmit }) => {
                 <label htmlFor="f-address" className="form-label">Address</label>
                 <textarea
                     id="f-address"
+                    data-testid="f-address"
                     disabled={sent}
                     rows={3}
                     className={bem("Field", { type: 'address' }, [getControlClass(addressIsValid, submitted)] )}
@@ -84,7 +87,7 @@ export const Form: React.FC<FormProps> = ({ onSubmit }) => {
                 <div className="invalid-feedback">Please provide a valid address</div>
             </div>
 
-            <button className={bem('Submit', ['btn', 'btn-primary'])} disabled={sent} onClick={onClick}>Checkout</button>
+            <button data-testid="f-button" className={bem('Submit', ['btn', 'btn-primary'])} disabled={sent} onClick={onClick}>Checkout</button>
         </div>
     );
 }

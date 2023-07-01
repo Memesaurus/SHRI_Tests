@@ -97,7 +97,7 @@ export const Cart: React.FC = () => {
             <div className="col-12 col-sm-8 col-md-6">
                 <div className={bem('SuccessMessage', ['alert', alertClass])}>
                     <h4 className="alert-heading">Well done!</h4>
-                    <p>Order #<strong className={bem('Number')}>{latestOrderId}</strong> has been successfully completed.</p>
+                    <p data-testid="c-order">Order #<strong className={bem('Number')}>{latestOrderId}</strong> has been successfully completed.</p>
                     <hr/>
                     <p className="mb-0">Please wait for confirmation of delivery.</p>
                 </div>
