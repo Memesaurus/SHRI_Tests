@@ -5,7 +5,7 @@ import { CheckoutResponse } from '../common/types';
 import { ExampleStore } from './data';
 
 export function getBugId(req: express.Request) {
-    return Number(req.query.bug_id) || 0;
+    return Number(req.query.bug_id) || Number(process.env.BUG_ID) || 0;
 }
 
 const indexHtmlContent = readFileSync(join(__dirname, '..', '..', "dist", "index.html")).toString();
