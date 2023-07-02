@@ -9,7 +9,6 @@ describe("catalog", async function () {
   afterEach(async function ({ browser }) {
     cleanUpCart(browser);
     await browser.mockRestoreAll();
-    await browser.refresh();
   });
 
   it("верстка адаптируется под ширину экрана", async function ({ browser }) {
