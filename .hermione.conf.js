@@ -1,7 +1,7 @@
 module.exports = {
   sets: {
     desktop: {
-      files: "test/hermione",
+      files: "src/test/hermione",
     },
   },
 
@@ -11,6 +11,11 @@ module.exports = {
       desiredCapabilities: {
         browserName: "chrome",
       },
+      windowSize: {
+        width: 1920,
+        height: 1080,
+      },
+      retry: 1,
     },
   },
   plugins: {
